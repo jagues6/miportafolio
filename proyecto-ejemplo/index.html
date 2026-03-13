@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Ejemplo | Mi Portafolio</title>
+    <style>
+        /* Estilos internos para este proyecto individual */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Botón para volver al portafolio */
+        .btn-volver {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            transition: background 0.3s;
+        }
+
+        .btn-volver:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Tarjeta del proyecto */
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card .fecha {
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card ul {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        .card li {
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        /* Badge de tecnologías */
+        .tech-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Botón para volver al índice -->
+        <a href="../index.html" class="btn-volver">← Volver al Portafolio</a>
+
+        <!-- Contenido del proyecto -->
+        <article class="card">
+            <h1>🎨 Proyecto Ejemplo</h1>
+            <p class="fecha">📅 Creado: Marzo 2026</p>
+
+            <section>
+                <h2>📝 Descripción</h2>
+                <p>Este es un proyecto de ejemplo que demuestra cómo crear una página individual dentro de una carpeta separada. Esta estructura permite organizar múltiples proyectos de manera ordenada.</p>
+            </section>
+
+            <section>
+                <h2>🎯 Objetivos</h2>
+                <ul>
+                    <li>Aprender a estructurar proyectos en carpetas separadas</li>
+                    <li>Crear enlaces relativos entre páginas</li>
+                    <li>Entender cómo subir múltiples proyectos a GitHub Pages</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>🛠️ Tecnologías Utilizadas</h2>
+                <div>
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">Diseño Responsivo</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>📚 Lo que aprendí</h2>
+                <p>En este proyecto practiqué:</p>
+                <ul>
+                    <li>Estructura semántica de HTML5</li>
+                    <li>Uso de gradientes CSS</li>
+                    <li>Creación de tarjetas con sombras</li>
+                    <li>Enlaces relativos (../index.html)</li>
+                </ul>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
